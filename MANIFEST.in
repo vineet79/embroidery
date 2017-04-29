@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include embroidery *.css
+recursive-include embroidery *.csv
+recursive-include embroidery *.html
+recursive-include embroidery *.ico
+recursive-include embroidery *.js
+recursive-include embroidery *.json
+recursive-include embroidery *.md
+recursive-include embroidery *.png
+recursive-include embroidery *.py
+recursive-include embroidery *.svg
+recursive-include embroidery *.txt
+recursive-exclude embroidery *.pyc
